@@ -20,6 +20,18 @@ public class PruebaGITH {
            System.out.print(", ");
        
       }
+      
+      //intercambio del contenido de la primera posicion del array con la última
+      int aux=lista[0];
+      lista[0]=lista[lista.length-1];
+      lista[lista.length-1]=aux;
+      //imprimiendo el contenido del array con el intercambio hecho
+      System.out.println("");
+      for(int i=0; i<lista.length; i++){
+         System.out.print(lista[i]); 
+         System.out.print(", "); 
+      }
     }
     }
+    
     
