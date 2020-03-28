@@ -15,8 +15,9 @@ public class PruebaGITH {
               
           }    
         //imprimiendo el contenido del array
+        System.out.println("lista original");
       for(int i=0; i<lista.length; i++){
-          System.out.print(lista[i]); 
+          System.out.print(+lista[i]); 
            System.out.print(", ");
        
       }
@@ -27,8 +28,10 @@ public class PruebaGITH {
       lista[lista.length-1]=aux;
       //imprimiendo el contenido del array con el intercambio hecho
       System.out.println("");
+      
+        System.out.println("lista cambiada");
       for(int i=0; i<lista.length; i++){
-         System.out.print(lista[i]); 
+         System.out.print(+lista[i]); 
          System.out.print(", "); 
       }
     }
